@@ -1,0 +1,32 @@
+{
+  "name": "is-xhr",
+  "version": "0.1.0",
+  "description": "Determine if incoming request is an XHR request",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/is-xhr.git"
+  },
+  "keywords": [
+    "ajax",
+    "reqest"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/is-xhr/issues"
+  },
+  "homepage": "https://github.com/scottcorgan/is-xhr",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "supertest": "^0.13.0",
+    "connect": "^2.19.6"
+  }
+}
